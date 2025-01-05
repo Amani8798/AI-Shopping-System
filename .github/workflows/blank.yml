@@ -1,0 +1,15 @@
+# Create a new repository
+git init ai-shopping-system
+
+# Add a file
+git add config.yml
+
+# Commit changes
+git commit -m "Initial configuration file"
+
+# Create a new branch for a feature
+git checkout -b feature/checkout-process
+
+# Merge changes back to main
+git checkout main
+git merge feature/checkout-process
